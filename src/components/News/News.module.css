@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+.container {
+  margin: 50px;
+}
+.Card_new_mod {
+  padding: 0px 0px 0px 0px !important;
+  background-color: #fdfdfd !important;
+  box-shadow: 2px 2px 8px #ccc !important;
+  transition: all 0.3s ease-in-out !important;
+  margin-left: 7% !important;
+  height: 100%;
+}
+.Card_new_mod:hover {
+  transform: scale(1.08);
+  box-shadow: 2px 2px 10px #ccc !important;
+}
+.Card_Content_mod {
+  padding: 10px 15px 10px 15px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+.news_date {
+  font-weight: 300;
+  font-size: 0.8vw;
+  margin-bottom: 10px;
+}
+.news-title {
+  font-weight: 600;
+  font-size: 1.3vw;
+  margin-bottom: 10px;
+}
+.news-excerpt {
+  font-weight: 300;
+  font-size: 0.9vw;
+  text-align: justify;
+  max-height: 150px;
+  overflow: hidden;
+}
+.news-link {
+  margin-top: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 0.2s ease-in-out !important;
+  color: #1b1b2f;
+}
+.news-link a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: #1b1b2f;
+  transition: all 0.2s ease-in-out !important;
+}
+.news-link:hover {
+  transform: scale(1.02);
+  font-weight: 700;
+}
+.loading-newsfeed {
+  margin: 20px;
+  font-weight: 300;
+  font-size: 0.9vw;
+}
+.sub-heading {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 2vw;
+}
+@media (max-width: 770px) {
+  .Card_new_mod {
+    margin-bottom: 10% !important;
+  }
+  .news_date {
+    font-weight: 300;
+    font-size: 1.8vw;
+    margin-bottom: 10px;
+  }
+  .news-title {
+    font-weight: 600;
+    font-size: 3vw;
+    margin-bottom: 10px;
+  }
+  .news-excerpt {
+    font-weight: 300;
+    font-size: 2.2vw;
+    text-align: justify;
+    max-height: 150px;
+    overflow: hidden;
+  }
+  .news-link {
+    margin-top: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.2s ease-in-out !important;
+    color: #1b1b2f;
+  }
+  .news-link a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.8vw;
+    color: #1b1b2f;
+    transition: all 0.2s ease-in-out !important;
+  }
+  .sub-heading {
+    margin: 2%;
+    font-weight: 600;
+    font-size: 3.8vw;
+  }
+}
