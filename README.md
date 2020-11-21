@@ -1,3 +1,14 @@
+COVID-19 Tracker
+
+![alt text](https://raw.githubusercontent.com/KunalEveryWhere/COVID19-Tracker/master/output/desktop/Section%201.PNG)
+
+![alt text](https://raw.githubusercontent.com/KunalEveryWhere/COVID19-Tracker/master/output/desktop/Section%202.PNG)
+
+![alt text](https://raw.githubusercontent.com/KunalEveryWhere/COVID19-Tracker/master/output/desktop/Section%202-2.PNG)
+
+![alt text](https://raw.githubusercontent.com/KunalEveryWhere/COVID19-Tracker/master/output/desktop/Section%203.PNG)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
